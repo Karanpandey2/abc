@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    height: 100vh;
+    width: 100vw;
+    background-image: url('background_iamge.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main{
+    width: 100%;
+    display: flex;
+    margin: 20px;
+    margin-top: 150px;
+    justify-content: space-evenly;
+}
+.uppper_content a{
+    text-decoration: none;
+    color: white;   
+    word-spacing: 3px;
+}
+.heading{
+    color: orange;
+}
+.uppper_content{
+
+        width: 40%;
+        display: grid; 
+        grid-template-columns: repeat(3,1fr);
+        place-items: center;
+    
+}
+.uppper_content :hover{
+    border-bottom: 2px solid white;
+}
+.upper_side a{
+    color: white;
+    text-decoration: none;
+     background-color: rgba(225, 225, 225, 0.5);
+}
+.one{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px;
+}
+.two{
+    color: orange;
+    font-size: 60px;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px;
+}
+.three{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px;
+}
+.last_one a{
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+.last_one p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+}
+.last h2{
+     margin-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 90%;
+    place-content: center;
+    color: orange;
+    background-color: rgba(225, 225, 225, 0.1);    
+
+}
+.for-bc{
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    height: 300px;
+    background-color: rgba(225, 225, 225, 0.034);
+}
+.last p{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: help;
+}
+.last a{
+    color: orange;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.last h5{
+    color: white;
+}
+
+input[type="email"]{
+    border: none;
+    background: transparent;
+    width: 90%;
+    border-bottom: 2px solid white;
+    margin: 2px 0;
+    padding: 5px;
+    outline: none;
+    color: white;
+
+}
+::placeholder{
+    color: white;
+}
+input[type="password"]{
+    border: none;
+    border: none;
+    background: transparent;
+    width: 90%;
+    border-bottom: 2px solid white;
+    margin: 2px 0;
+    padding: 5px;
+    outline: none;
+     color: white;
+}
+input[type="text"]{
+    border: none;
+    background: transparent;
+    width: 50%;
+    border-bottom: 2px solid white;
+    margin: 2px 0;
+    padding: 5px;
+    outline: none;
+     color: white;
+}
+.btnone{
+    padding: 5px;
+    background: none;
+    
+}
+button{
+    background-color: transparent;
+    margin: 5px;
+    cursor: pointer;
+}
+.fa{
+    color: red;
+}
